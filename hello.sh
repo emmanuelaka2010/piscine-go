@@ -1,5 +1,5 @@
 #! /bin/bash
 
-var=$( curl -s https://api.github.com/users/emmanuelaka2010 | jq '.login')
+var="emmanuelaka2010"
 
-echo "Hello $var"
+echo "Hello $var!"
