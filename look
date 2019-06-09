@@ -1,1 +1,3 @@
-find . -name '[aA]*[zZ]' '*z' '[aA]*' -print
+find -name "a*"
+find -name "z*"
+find -name "z*a!"
