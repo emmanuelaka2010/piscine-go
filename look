@@ -1,0 +1,1 @@
+find . -name '[aA]*[zZ]' '.z' '[a]' -print
