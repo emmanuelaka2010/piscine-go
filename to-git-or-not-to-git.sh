@@ -1,4 +1,3 @@
 #! /bin/bash
-
-var="47211848"
+var=$( curl -s https://api.github.com/users/emmanuelaka2010 | jq '.id')
 echo $var
