@@ -1,2 +1,3 @@
 #! /bin/bash
-curl -s https://api.github.com/users/emmanuelaka2010 | jq '.id'
+var = 47211848
+echo $var
